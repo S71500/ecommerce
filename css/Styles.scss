@@ -320,3 +320,19 @@ img {
     border-color: #444;
   }
 }
+
+.bienvenida {
+  text-align: center;
+  padding: 20px 10px;
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    opacity: 0.85;
+  }
+}
